@@ -1,6 +1,6 @@
 ## About Me
 
-What's up? hey\|you
+Hi I'm a student at Lehigh University studying Finance and Business Analytics
 
 I am an awesome student at Lehigh, you should hire me!
 
