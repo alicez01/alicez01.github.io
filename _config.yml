@@ -8,3 +8,7 @@ description: >
   </div>
 
 theme: jekyll-theme-cayman
+
+markdown: kramdown
+sass:
+  style: compressed
