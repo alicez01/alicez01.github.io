@@ -7,8 +7,4 @@ description: >
     <a href="https://www.github.com/alicez01/" target="_blank">GitHub</a>
   </div>
 
-theme: jekyll-theme-cayman
-
-markdown: kramdown
-sass:
-  style: compressed
+theme: jekyll-theme-minimal
