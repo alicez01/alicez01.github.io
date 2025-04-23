@@ -3,7 +3,6 @@ layout: default
 ---
 
 ## About Me
-
 Hi I'm a student at Lehigh University studying Finance and Business Analytics
 
 <!-- Upload your own photo and change the path -->
