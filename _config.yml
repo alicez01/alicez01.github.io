@@ -1,10 +1,16 @@
-title: Alice Zhang
+title: "Alice Zhang"
 logo: "/images/241001_Headshots_Senate_AAN227-27.jpg"
 description: >
-  <div style="text-align: center;">
-    <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a> |
-    <a href="pdf/Resume-Alice_Zhang.pdf" target="_blank">Resume</a> |
-    <a href="https://www.github.com/alicez01/" target="_blank">GitHub</a>
+  <div style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 16px; margin-top: 10px;">
+    <a href="https://www.linkedin.com/in/your-profile" target="_blank" style="margin: 0 10px; color: #0077b5; text-decoration: none;">
+      🌐 LinkedIn
+    </a> |
+    <a href="pdf/Resume-Alice_Zhang.pdf" target="_blank" style="margin: 0 10px; color: #d6336c; text-decoration: none;">
+      📄 Resume
+    </a> |
+    <a href="https://www.github.com/alicez01/" target="_blank" style="margin: 0 10px; color: #6e5494; text-decoration: none;">
+      💻 GitHub
+    </a>
   </div>
 
 theme: jekyll-theme-minimal
