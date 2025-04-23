@@ -13,7 +13,7 @@ description: >
     </a>
   </div>
 
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 sass:
   style: compressed
 
