@@ -10,18 +10,18 @@
       .page-header {
         text-align: center;
         padding: 2rem 1rem;
-        background-color: #fffcfd;  /* Very light white with pink tint */
+        background-color: #fffcfd;
         border-radius: 10px;
         margin-bottom: 2rem;
-        box-shadow: 0 2px 15px rgba(214, 51, 108, 0.08); /* Subtle pink shadow */
-        border: 1px solid #ffe6ee; /* Light pink border */
+        box-shadow: 0 2px 15px rgba(214, 51, 108, 0.08);
+        border: 1px solid #ffe6ee;
       }
       
       /* Logo styling */
       .page-header img {
         max-width: 250px;
         border-radius: 14px;
-        box-shadow: 0 4px 15px rgba(214, 51, 108, 0.1); /* Pink-tinted shadow */
+        box-shadow: 0 4px 15px rgba(214, 51, 108, 0.1);
         margin-bottom: 1.5rem;
         transition: transform 0.3s ease;
       }
@@ -33,7 +33,7 @@
       /* Title styling */
       h1 {
         font-size: 2.8rem;
-        color: #d6336c; /* Your signature pink */
+        color: #d6336c;
         margin: 0.5rem 0;
         font-weight: 600;
         letter-spacing: -0.5px;
@@ -43,7 +43,7 @@
       /* Description text */
       .page-header p {
         font-size: 1.2rem;
-        color: #666; /* Softer than pure black */
+        color: #666;
         max-width: 800px;
         margin: 0 auto;
         line-height: 1.6;
@@ -53,12 +53,50 @@
       .page-content {
         max-width: 800px;
         margin: 2em auto;
-        padding: 1em;
+        padding: 2em;
         line-height: 1.6;
         font-size: 1.1rem;
-        background-color: #fff; /* Pure white content area */
+        background-color: #fff;
         border-radius: 8px;
         box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+      }
+      
+      /* Portfolio item styling */
+      .page-content h2 {
+        color: #d6336c;
+        margin-top: 2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #ffe6ee;
+      }
+      
+      .page-content h3 {
+        color: #c44569;
+        margin: 1.5rem 0 1rem;
+      }
+      
+      /* Table styling */
+      .page-content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        font-size: 0.95rem;
+      }
+      
+      .page-content th, 
+      .page-content td {
+        padding: 0.75rem;
+        text-align: left;
+        border-bottom: 1px solid #f2c6d6;
+      }
+      
+      .page-content th {
+        background-color: #fff5f7;
+        color: #d6336c;
+        font-weight: 600;
+      }
+      
+      .page-content tr:hover {
+        background-color: #fff9fb;
       }
       
       /* Links */
@@ -75,6 +113,16 @@
         color: #fff;
         background-color: #d6336c;
         text-decoration: none;
+      }
+      
+      .page-content a {
+        color: #d6336c;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      
+      .page-content a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
