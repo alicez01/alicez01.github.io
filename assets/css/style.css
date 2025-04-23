@@ -1,0 +1,18 @@
+body {
+  background-color: #fdf6f8; /* A soft pink background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-header {
+  background-color: #ffe3ec; /* Light pastel header */
+  padding: 20px;
+  border-bottom: 1px solid #f2c6d6;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff69b4; /* Hot pink hover */
+}
