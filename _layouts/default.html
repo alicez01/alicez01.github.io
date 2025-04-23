@@ -1,19 +1,30 @@
-<!DOCTYPE html>
-<html>
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title | default: site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- 💖 Google Font (Poppins) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Your custom stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
+
   <style>
-    body { font-family: 'Quicksand', sans-serif; }
-    h1 { font-size: 2.2rem; color: #d6336c; margin-top: 0.5em; }
-    .page-header img { max-width: 180px; border-radius: 14px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    body {
+      font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #d6336c;
+      margin-top: 0.5em;
+    }
+
+    .page-header img {
+      max-width: 180px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 10px;
+    }
   </style>
 </head>
-<body>
-  <h1>Test Content</h1>
-  <p>If you see this, your HTML is working.</p>
-</body>
-</html>
