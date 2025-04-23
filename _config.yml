@@ -14,3 +14,17 @@ description: >
   </div>
 
 theme: jekyll-theme-minimal
+sass:
+  style: compressed
+
+include:
+  - assets/css
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      css: "/assets/css/style.css"
