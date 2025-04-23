@@ -6,29 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/css/style.css">
     <style>
-      h1 {
-        font-size: 2.2rem;
-        color: #d6336c;
-        margin-top: 0.5em;
+      /* Improved header styling */
+      .page-header {
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        margin-bottom: 2rem;
       }
+      
+      /* Larger logo size */
       .page-header img {
-        max-width: 180px;
+        max-width: 250px;  /* Increased from 180px */
         border-radius: 14px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        margin-bottom: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 1.5rem;
+        transition: transform 0.3s ease;
+      }
+      
+      .page-header img:hover {
+        transform: scale(1.03);
+      }
+      
+      /* Enhanced title styling */
+      h1 {
+        font-size: 2.8rem;  /* Increased from 2.2rem */
+        color: #d6336c;
+        margin: 0.5rem 0;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+      }
+      
+      /* Description text styling */
+      .page-header p {
+        font-size: 1.2rem;
+        color: #495057;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+      
+      /* Main content area */
+      .page-content {
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 1em;
+        line-height: 1.6;
+        font-size: 1.1rem;
+      }
+      
+      /* Link styling in description */
+      .page-header a {
+        color: #d6336c;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.2s;
+      }
+      
+      .page-header a:hover {
+        color: #a61e4d;
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
-    <header class="page-header" style="text-align: center;">
+    <header class="page-header">
       {% if site.logo %}
         <img src="{{ site.logo }}" alt="Logo">
       {% endif %}
       <h1>{{ site.title }}</h1>
-      {{ site.description }}
+      {% if site.description %}
+        <p>{{ site.description }}</p>
+      {% endif %}
     </header>
 
-    <main class="page-content" style="max-width: 800px; margin: 2em auto; padding: 1em;">
+    <main class="page-content">
       {{ content }}
     </main>
   </body>
