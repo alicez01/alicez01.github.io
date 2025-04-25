@@ -36,9 +36,7 @@ Assignment #3: This heatmap represents the correlation between three variables: 
 
 ## Career Objectives
 
-Write what you want. 
-
-Sell yourself!
+Aspiring finance professional pursuing a double major in Finance and Business Analytics with a strong foundation in data analysis, risk evaluation, and business strategy. Eager to leverage academic knowledge and hands-on experience—including a recent underwriting internship in medical malpractice reinsurance—to contribute to dynamic teams in the financial services or insurance industry. Passionate about using data-driven insights to inform decision-making and drive organizational success, with long-term goals of advancing in risk management or corporate finance.
 
 ---
 
