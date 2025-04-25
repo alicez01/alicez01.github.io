@@ -22,7 +22,9 @@ I analyzed whether sentiment in 10-K filings is linked to stock returns. My hypo
 
 Next, I performed sentiment analysis using custom dictionaries focused on Competition, Supply Chain, and Inflation. I computed sentiment scores and added them to the dataset. To explore the relationship between sentiment and returns, I used a correlation matrix and heatmap, uncovering potential patterns between filing tone and stock performance.
 <img src="images/10x3_Correlation_Matrix.png" style="width: 95%; height: auto;" />
+
 <img src="images/sentiment_return_heatmap.png" style="width: 95%; height: auto;" />
+
 ---
 
 _**[Regression Practice](Regression_practice)**_
