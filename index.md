@@ -17,6 +17,7 @@ On campus, I’ve taken on leadership roles that allow me to empower others and 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
 _**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
+
 I analyzed whether sentiment in 10-K filings is linked to stock returns. My hypothesis was that positive sentiment signals stronger company performance and better returns. I gathered 10-K filings for S&P 500 firms from the SEC's EDGAR database, processed them to clean the text, and merged the data with 2022 CRSP stock returns.
 
 Next, I performed sentiment analysis using custom dictionaries focused on Competition, Supply Chain, and Inflation. I computed sentiment scores and added them to the dataset. To explore the relationship between sentiment and returns, I used a correlation matrix and heatmap, uncovering potential patterns between filing tone and stock performance.
@@ -41,8 +42,6 @@ Sell yourself!
 
 ## Hobbies
 
-Maybe include a little about these, especially if they are the kinds of things that work well in interviews.
+My hobbies include digital art, fitness, dance, and baking. Besides my academics, I love being involved with two dance teams on campus, JM Entertainment and the Polynesian Dance Team. I also like to create art in my free time. 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
